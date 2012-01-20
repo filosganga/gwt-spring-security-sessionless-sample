@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='org.filippodeluca.todo.Todo' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/Todo/greet" class="org.filippodeluca.todo.server.services.GreetingServiceImpl" />
+
+</module>
